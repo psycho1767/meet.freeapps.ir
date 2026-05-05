@@ -1,0 +1,19 @@
+{
+  "name": "meet.freeapps.ir",
+  "version": "1.0.0",
+  "description": "just a freeapp meeting",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psycho1767/meet.freeapps.ir.git"
+  },
+  "author": "psycho1767",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psycho1767/meet.freeapps.ir/issues"
+  },
+  "homepage": "https://github.com/psycho1767/meet.freeapps.ir#readme"
+}
