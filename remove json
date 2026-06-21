@@ -1,0 +1,1 @@
+    // "dev": "concurrently "npm:dev:server" "npm:dev:client"",

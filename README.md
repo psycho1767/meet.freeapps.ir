@@ -35,6 +35,12 @@ npm run build
 
 Run the server with `NODE_ENV=production` behind HTTPS / WSS.
 
+## MediaPipe background assets
+
+The virtual background loader no longer points to jsDelivr. After `npm install`, a postinstall script copies the MediaPipe Selfie Segmentation assets from `node_modules/@mediapipe/selfie_segmentation` into `public/mediapipe/` so the app can run without external downloads.
+
+If the assets are missing, the meeting still works and the camera stream falls back to the raw feed.
+
 ## Security notes
 
 - Use HTTPS in production so camera and microphone permissions work.
